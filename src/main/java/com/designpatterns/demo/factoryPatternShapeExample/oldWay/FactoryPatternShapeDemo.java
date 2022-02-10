@@ -10,9 +10,9 @@ public class FactoryPatternShapeDemo {
         ShapeFactory shapeFactory = new ShapeFactory();
 
         Shape shape1 = shapeFactory.getShape("CIRCLE");
-        shape1.draw();
+        shape1.calculateArea();
 
         Shape shape2 = shapeFactory.getShape("RECTANGLE");
-        shape2.draw();
+        shape2.calculateArea();
     }
 }

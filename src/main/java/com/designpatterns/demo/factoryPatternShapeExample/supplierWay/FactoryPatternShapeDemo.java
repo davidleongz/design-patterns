@@ -1,4 +1,4 @@
-package com.designpatterns.demo.factoryPatternShapeExample.lambdaWay;
+package com.designpatterns.demo.factoryPatternShapeExample.supplierWay;
 
 import java.util.function.Supplier;
 
@@ -8,9 +8,9 @@ public class FactoryPatternShapeDemo {
 
         Supplier<ShapeFactory> shapeFactory =  ShapeFactory::new;
 
-        shapeFactory.get().getShape("circle").draw();
+        shapeFactory.get().getShape("circle").calculateArea();
 
-        shapeFactory.get().getShape("rectangle").draw();
+        shapeFactory.get().getShape("rectangle").calculateArea();
 
     }
 }

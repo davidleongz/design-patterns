@@ -1,6 +1,8 @@
 package com.designpatterns.demo.factoryPatternShapeExample;
 
+import java.math.BigDecimal;
+
 public interface Shape {
 
-    void draw();
+    BigDecimal calculateArea();
 }

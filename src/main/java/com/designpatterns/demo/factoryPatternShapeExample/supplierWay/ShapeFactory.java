@@ -1,4 +1,4 @@
-package com.designpatterns.demo.factoryPatternShapeExample.lambdaWay;
+package com.designpatterns.demo.factoryPatternShapeExample.supplierWay;
 
 import com.designpatterns.demo.factoryPatternShapeExample.Circle;
 import com.designpatterns.demo.factoryPatternShapeExample.Rectangle;

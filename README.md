@@ -1,5 +1,5 @@
 # design-patterns
-**Factory Pattern**
+**Factory Pattern using supplier**
 
 We can refer to constructors just like we refer to methods, by using
 method references. For example:
